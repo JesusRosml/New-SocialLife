@@ -426,7 +426,7 @@ header {
     }
     
     .container-descripcion h2 {
-        font-size: 1.2em;
+        font-size: .8em;
         font-weight: bold;
         margin-bottom: 50px;
         color: #FFFFFF;
@@ -567,13 +567,7 @@ header {
     }
 
     .container-cards h4 {
-        margin-top: 20px;
-        display: block;
-        position: relative;
-        width: 100%;
-        font-size: 1em;
-        margin-bottom: 20px;
-        font-family: 'EB Garamond', serif;
+        display: none;
     }
 
 }
