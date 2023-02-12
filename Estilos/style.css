@@ -489,7 +489,6 @@ header {
     height: auto;
     overflow: visible;
     box-shadow: none;
-
 }
 
 .cardsOne:hover > .containerinformacion {
@@ -568,6 +567,11 @@ header {
 
     .container-cards h4 {
         display: none;
+    }
+
+    .cardsOne:hover {
+        height: auto;
+        overflow: visible;
     }
 
 }
