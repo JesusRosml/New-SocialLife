@@ -311,9 +311,10 @@ section {
 /* Contenido Principal responsive */
 
 @media screen and (max-width: 500px) {
+
     main {
         margin-top: 100px;
-        height: 1000px;
+        height: auto;
         width: 100%;
         position: relative;
     }
@@ -572,7 +573,7 @@ section {
         background: #FFFFFF;
         height: auto;
         width: 100%;
-        margin: 10px 0px;
+        margin: 10px auto;
         box-shadow: 0px 0px 15px #0000001f;
         transition: all .8s;
     }
@@ -637,7 +638,7 @@ section {
     }
     
     .icons2 {
-        width: 800px;
+        width: 100%;
         height: auto;
         display: flex;
     }
@@ -827,12 +828,6 @@ input {
         display: block;
         position: relative;
     }
-
-    .container__informacion { /* Contenedor principal */
-        height: auto;
-        width: 100%;
-        position: relative;
-    }
     
     .container__informacion--target {
         width: 100%;
@@ -844,43 +839,30 @@ input {
     }
     
     .body1 {
-        height: auto;
-        width: 100%;
-        padding-bottom: 300px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Urbanist', sans-serif;
-        background: #041b34;
+        height: 350px;
+        width: auto;
+        margin-top: 10px;
+        padding-bottom: 400px;
     }
 
     .container {
+        margin-right: 340px;
         width: 100%;
         height: auto; /* Evita que se sobre pongan cosas en el */
-        display: flex;
-        transform-style: preserve-3d;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
     } 
     
     .cards {
-        margin-top: 74px;
         position: relative;
-        height: 500px;
+        height: auto;
         width: 100%;
-        margin-bottom: 20px;
-        perspective: 1000px;
+        perspective: 2700px;
         transform-style: preserve-3d;
     }
     
     .cards label {
         position: absolute;
-        width: 100%; /* Ancho del contenido */
+        width: 150px; /* Ancho del contenido */
         height: auto; /* Altura del contenido */
-        left: 0;
-        right: 0;
-        margin: auto;
         cursor: pointer;
         transition: transform 0.55s ease;
     }
@@ -903,7 +885,7 @@ input {
         box-shadow: 15px 15px 40px rgba(0, 0, 0, 50%);
         margin-top: 5px;
         width: 100%;
-        height: 550px;
+        height: 270px;
         object-fit: scale-down;/* Escala una imagen muy bien */
     }
     
@@ -997,6 +979,72 @@ input {
     max-width: 100%;
     text-align: justify;
     display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .container__decripciontecnologias h4 {
+        font-size: 1.2em;
+        font-weight: 700;
+        color: #373737;
+        display: inline-block;
+        font-family: 'EB Garamond', serif;   
+    }
+    
+    .design5 {
+        margin-top: 5px;
+        height: 2px;
+        width: 120px;
+        background: #0D47A1;
+    }
+    
+    .container__cardstools {
+        margin: 20px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    
+    .container__cardstools1 {
+        margin: 10px 10px;
+        height: 90px;
+        width: 20%;
+        background:  #041b34;
+        border-radius: 10px;
+        box-shadow: 0px 2px 15px #000000;
+    }
+    
+    .container__cardstools1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: scale-down;
+    }
+    
+    .figma {
+        background:  #121315;
+    }
+    
+    .firebase {
+        background: #FFFFFF;
+    }
+    
+    .containerinformacionfinal h4{
+        font-size: 1.2em;
+        padding-bottom: 40px;
+        font-weight: 700;
+        color: #373737;
+        display: inline-block;
+        font-family: 'EB Garamond', serif;  
+    }
+    
+    .containerinformacionfinal p {
+        font-size: 18px;
+        width: 100%;
+        text-align: justify;
+        display: inline-block;
+    }
 }
 
 footer {
