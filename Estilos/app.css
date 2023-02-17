@@ -1120,6 +1120,7 @@ input {
 /* Foooter */
 
 footer {
+    margin-top: 1100px;
     height: 60px;
     width: 100%;
     position: relative;
@@ -1164,6 +1165,7 @@ footer p {
 
 @media screen and (max-width: 500px) {
     footer {
+        margin-top: 0px;
         height: auto;
         width: 100%;
         position: relative;
