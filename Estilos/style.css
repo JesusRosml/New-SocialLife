@@ -624,7 +624,7 @@ footer p {
     display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     footer {
         height: auto;
         width: 100%;
